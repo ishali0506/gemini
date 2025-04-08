@@ -13,7 +13,7 @@ import {
     const model = genAI.getGenerativeModel({ model: MODEL_NAME });
   
     const generationConfig = {
-      temperature: 0.9, // ✅ fixed typo
+      temperature: 0.9, 
       topK: 1,
       topP: 1,
       maxOutputTokens: 2048,
@@ -44,9 +44,9 @@ import {
       history: [],
     });
   
-    const result = await chat.sendMessage("what is react");
+    const result = await chat.sendMessage(prompt);
     const response = result.response;
-    console.log(response);
+    console.log(response.text());
     return response.text();
   }
   

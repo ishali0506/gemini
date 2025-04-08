@@ -12,6 +12,7 @@ import code_icon from './code.png';
 import gallery_icon from './gallery.png';
 import send_icon from './send.png';
 import mike_icon from './mike.png';
+import gemini_icon from './gemini.jpg'
 
 
 export const assets ={
@@ -28,5 +29,6 @@ export const assets ={
     code_icon,
     gallery_icon,
     send_icon,
-    mike_icon
+    mike_icon,
+    gemini_icon
 }
